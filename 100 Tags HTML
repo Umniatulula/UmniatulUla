@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umniatul Ula | Book Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#books">Buku</a></li>
+        <li><a href="#reading">Baca Selanjutnya</a></li>
+        <li><a href="#recommendation">Rekomendasi</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+    <h1>Hi, Peeps!</h1>
+    <p>Selamat datang di Website Buku Umniatul Ula!</p>
+  </header>
+
+  <section id="about">
+    <article>
+      <h2>Tentang Aku</h2>
+      <p>Halo! Aku <strong>Umniatul Ula</strong>, mahasiswa <em>Universitas Negeri Makassar</em> semester 4.  
+      Aku suka membaca buku novel, biografi, dan berbagai genre seru lainnya! 🌸</p>
+      <blockquote>"Membaca adalah jendela dunia." 📚</blockquote>
+      <figure>
+        <img src="profile.jpg" alt="Foto Umniatul" class="profile-img">
+        <figcaption>Ini aku, Umniatul! ✨</figcaption>
+      </figure>
+    </article>
+  </section>
+
+  <section id="books">
+    <article>
+      <h2>Buku yang Sudah Aku Baca</h2>
+      <ol>
+        <li>Bumi Manusia - Tere Liye</li>
+        <li>Pulang - Tere Liye</li>
+        <li>Pergi - Tere Liye</li>
+        <li>Pulang Pergi - Tere Liye</li>
+        <li>Tentang Kamu - Tere Liye</li>
+        <li>Negeri Para Badebah - Tere Liye</li>
+        <li>Badebah di Ujung Tanduk - Tere Liye</li>
+        <li>Bumi Manusia - Pramoedya Ananta Toer</li>
+        <li>Seni Berpikir Bodo Amat - Mark Manson</li>
+        <li>Biografi B.J. Habibie</li>
+        <li>Autobiografi Azka</li>
+        <li>Perjalanan Anarki</li>
+        <li>Hilmi Milan</li>
+      </ol>
+      <aside>
+        <p><small>*List ini akan terus bertambah seiring perjalanan membacaku!* 🌼</small></p>
+      </aside>
+    </article>
+  </section>
+
+  <section id="reading">
+    <article>
+      <h2>Yang Akan Aku Baca</h2>
+      <ul>
+        <li>Madilog - Tan Malaka</li>
+        <li>Laut Bercerita - Leila S. Chudori</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="recommendation">
+    <article>
+      <h2>Diskusi & Rekomendasi</h2>
+      <details>
+        <summary>Yuk Share Buku Rekomendasi Kamu!</summary>
+        <p>Aku selalu terbuka untuk rekomendasi buku dari teman-teman semua! Yuk diskusi dan saling berbagi! 💬📚</p>
+      </details>
+      <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Nama kamu..">
+
+        <label for="book">Buku yang Direkomendasikan:</label>
+        <input type="text" id="book" name="book" placeholder="Judul buku..">
+
+        <button type="submit">Kirim Rekomendasi</button>
+      </form>
+    </article>
+  </section>
+
+  <section id="contact">
+    <article>
+      <h2>Kontak Aku</h2>
+      <address>
+        Instagram: <a href="https://instagram.com/umniatulula" target="_blank">@umniatulula</a>  
+        <br>Email: <a href="mailto:umniatulula@gmail.com">umniatulula@gmail.com</a>
+      </address>
+    </article>
+  </section>
+
+  <footer>
+    <p>© 2025 Umniatul Ula. All rights reserved. Made with 🤍</p>
+  </footer>
+
+</body>
+</html>
